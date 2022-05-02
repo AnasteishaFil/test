@@ -2,9 +2,8 @@
 body {
   margin: 0;
   background-image: url(images/rec.jpg);
-  background-size: cover;
+  background-size: auto 100%;
   background-attachment: fixed;
-  /* position: relative; */
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
@@ -824,6 +823,7 @@ button {
     button.learn-more .button-text{
         margin: 0 0 0 2.5rem;
         line-height: 1.5;
+        font-size: 12px;
     }
     .quiz{
         height: auto;
@@ -889,7 +889,7 @@ button {
         width: 47%;
     }
     button.learn-more{
-        width: 55%;
+        width: 60%;
     }
     .inf-under, #result{
         line-height: 20px;
