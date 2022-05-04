@@ -2,7 +2,7 @@
 body {
   margin: 0;
   background-image: url(images/rec.jpg);
-  background-size: auto 100vh;
+  background-size: auto 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   overflow-x: hidden;
